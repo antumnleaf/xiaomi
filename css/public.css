@@ -1,0 +1,7 @@
+*{
+	margin: 0;		/*body上的8px*/
+	text-decoration: none; /*文本修饰下划线*/
+	font-style: normal;
+	padding: none;
+	list-style: none;
+}
