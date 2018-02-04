@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 561412 */
-  src: url('//at.alicdn.com/t/font_561412_qryfiej18j8aor.eot');
-  src: url('http://at.alicdn.com/t/font_561412_qryfiej18j8aor.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_561412_qryfiej18j8aor.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_561412_qryfiej18j8aor.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_561412_qryfiej18j8aor.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_561412_78vtxgfqykqpvi.eot');
+  src: url('https://at.alicdn.com/t/font_561412_78vtxgfqykqpvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561412_78vtxgfqykqpvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561412_78vtxgfqykqpvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561412_78vtxgfqykqpvi.svg#iconfont') format('svg');
 }
 .head{
 	width: 100%;
@@ -281,6 +281,7 @@
 	background-color: #f5f5f5;
 	margin-top: 40px;
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .zhineng{
 	width: 1226px;
@@ -368,31 +369,35 @@
 	width: 234px;
 	height: 143px;
 	margin-bottom: 14px;
-	background-color: #ffffff;
+	background-color: #fff;
+	float: right;
 }
-.zhineng_ileft a{
+.zhineng_genduo{
 	color:#333333;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: left;
-	margin-top: 45px;
 }
 .zhineng_ileft h3{
 	font-size: 14px;
 	color: #ff6700;
 	margin-top: 15px;
 	font-weight: normal;
+	float: left;
+	display: block;
 }
 .zhineng_ileft h2{
 	font-size: 12px;
 	color: #757575;
 	margin-top: 10px;
 	font-weight: normal;
+	text-align: left;
 }
 .zhineng_ileft{
 	width: 94px;
 	height: 143px;
 	margin-left: 30px;
 	float: left;
+	margin-top: 45px;
 }
 .zhineng_itop img{
 	margin-top: 31.5px;
@@ -402,9 +407,9 @@
 }
 .zhineng_iright{
 	color:#333333;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: left;
-	margin-top: 55px;
+	float: left;
 }
 .zhineng_tan{
 	width: 100%;
@@ -415,6 +420,22 @@
 	bottom: -80px;
 	transition: bottom 1s linear,opacity 1s linear;
 	opacity: 0;
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+	font-size: 14px;
+}
+.zhineng_zhe{
+	width: 64px;
+	height: 20px;
+	position: absolute;
+	left: 85px;
+	top: 0;
+	background-color: #e53935;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
 }
 .dapei{
 	margin-top: 22px;
@@ -448,6 +469,117 @@
 }
 .dapei_item1 p{
 	margin-top: 10px;
+}
+.tuijian{
+	height: 358px;
+}
+.tuijian_item{
+	margin-left: 0;
+}
+.reping{
+	height: 473px;
+}
+.reping_buttom{
+	width: 1226px;
+	height: 415px;
+}
+.reping_item{
+	width: 296px;
+	height: 415px;
+	background-color: #fff;
+	margin-left: 14px;
+	float: left;
+}
+.reping_item1{
+	margin-left: 0;
+}
+.reping_item img{
+	width: 296px;
+	height: 220px;
+	margin-bottom: 28px;
+}
+.reping_ping{
+	display: block;
+	height: 72px;
+	margin: 0 28px 22px;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+.reping_item span{
+	display: block;
+	height: 18px;
+	margin: 0 28px 8px;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.reping_foot{
+	margin: 0 28px;
+	overflow: hidden;
+}
+.reping_foot a{
+	display: block;
+	font-size: 14px;
+	max-width: 170px;
+	color: #333;
+	float: left;
+}
+.reping_gang{
+	width: 1px;
+	height: 16px;
+	margin: 3px 4px;
+	background-color: #e0e0e0;
+	float: left;
+}
+.reping_foot h1{
+	font-size: 14px;
+	color: #ff6700;
+	float: left;
+	font-weight: normal;
+}
+.shipin{
+	height: 343px;
+}
+.shipin_buttom{
+	width: 1226px;
+	height: 285px;
+}
+.shipin_item{
+	width: 296px;
+	height: 285px;
+	float: left;
+	margin-left: 14PX;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+}
+.shipin_item1{
+	margin-left: 0;
+}
+.shipin_item img{
+	width: 296px;
+	height: 180px;
+	margin-bottom: 28px;
+	
+}
+.shipin_item p{
+	position: absolute;
+	left: 20px;
+	top: 140px;
+	display: block;
+	font-size: 30px;
+	font-family: 'iconfont';
+	color:#fff;
+}
+.shipin_item a{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 6px;
+}
+.shipin_item span{
+	display: block;
+	font-size: 12px;
+	color: #b0b0b0;
 }
 .map{
 	width: 100%;
@@ -614,4 +746,37 @@
 .zhineng_item:hover .zhineng_tan{
 	bottom: 0;
 	opacity: 1;
+}
+.banner_btn:hover{
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	cursor: pointer;
+}
+.advert_item:hover span{
+	cursor: pointer;
+	color: #fff;
+}
+.advert_item:hover p{
+	cursor: pointer;
+	color: #fff;
+}
+.star_btn1:hover{
+	color: #ff6700;
+}
+.zhineng_more h2:hover{
+	color: #ff6700;
+}
+.zhineng_btn:hover{
+	background-color: #ff6700;
+	color: #fff;
+}
+.map_text span:hover{
+	color: #ff6700;
+}
+.map_text p:hover{
+	color: #ff6700;
+}
+.map_btn:hover{
+	background-color: #ff6700;
+	color: #fff;
 }
