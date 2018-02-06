@@ -85,6 +85,25 @@
 	float: right;
 	margin-top: 25px;
 }
+.search_btn{
+	font-family: 'iconfont';
+	width: 52px;
+	height: 50px;
+	border-left: 1px solid #e0e0e0;
+	color: #616161;
+	font-size: 24px;
+	line-height: 48px;
+	text-align: center;
+	outline: 0;
+	float: right;
+}
+.search_item{
+	border: 0;
+	font-size: 12px;
+	margin-top: 18px;
+	color: #eee;
+	float: right;
+}
 #banner{
 	width: 1226px;
 	height: 460px;
@@ -779,4 +798,15 @@
 .map_btn:hover{
 	background-color: #ff6700;
 	color: #fff;
+}
+.search_btn:hover{
+	background-color: #ff6700;
+	color: white;
+}
+.map_left a:hover,.foot_text:hover,.foot_zi:hover{
+	color: #ff6700;
+}
+.zhineng_left:hover,.zhineng_item:hover,.zhineng_itop:hover,.reping_item:hover,.shipin_item:hover{
+	box-shadow: 0 5px 10px 2px #e0e0e0;
+	transform:translate(0,-2px);
 }
