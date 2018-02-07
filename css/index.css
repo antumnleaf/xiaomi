@@ -88,21 +88,26 @@
 .search_btn{
 	font-family: 'iconfont';
 	width: 52px;
-	height: 50px;
+	height: 48px;
+	background-color: #fff;
+	border: 0;
 	border-left: 1px solid #e0e0e0;
 	color: #616161;
 	font-size: 24px;
 	line-height: 48px;
 	text-align: center;
-	outline: 0;
 	float: right;
 }
 .search_item{
+	padding: 0 10px;
+	width: 200px;
+	height: 48px;
 	border: 0;
 	font-size: 12px;
-	margin-top: 18px;
-	color: #eee;
-	float: right;
+	color: #757575;
+	float: left;
+	border: 0;
+	outline: none;
 }
 #banner{
 	width: 1226px;
@@ -805,6 +810,9 @@
 }
 .map_left a:hover,.foot_text:hover,.foot_zi:hover{
 	color: #ff6700;
+}
+.zhineng_left,.zhineng_item,.zhineng_itop,.reping_item,.shipin_item{
+	transition: all .5s linear;
 }
 .zhineng_left:hover,.zhineng_item:hover,.zhineng_itop:hover,.reping_item:hover,.shipin_item:hover{
 	box-shadow: 0 5px 10px 2px #e0e0e0;
