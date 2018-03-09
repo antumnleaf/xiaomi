@@ -28,7 +28,6 @@
 	background-color: #423d39;
 	float: left;
 	margin: 14px 7px 0;
-
 }
 .head_left{
 	float: left;
@@ -112,7 +111,6 @@
 #banner{
 	width: 1226px;
 	height: 460px;
-	background-color: blue;
 	margin: 0 auto;
 	position: relative;
 }
@@ -120,7 +118,6 @@
 	width: 1226px;
 	height: 460px;
 	position: absolute;
-	background-color: black;
 }
 .banner_img img{
 	width: 1226px;
@@ -128,6 +125,12 @@
 	position: absolute;
 	top: 0；
 	left:0;
+	transition: all 1s;
+	opacity: 0;
+}
+.banner_img .banner_img1{
+	z-index: 9;
+	opacity: 1;
 }
 .banner_nav{
 	width: 234px;
@@ -137,6 +140,35 @@
 	left: 0;
 	padding: 20px 0;
 	position: absolute;
+	z-index: 99;
+}
+.lunbo{
+	width: 400px;
+	height: 18px;
+	text-align: right;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	z-index: 10;
+}
+.lunbo_con{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	border-color: rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0.4);
+	margin: 0 5px;
+	transition: all 1s;
+}
+.lunbo_this{
+	border-color: rgba(0,0,0,0.4);
+	background-color: rgba(255,255,255,0.4);
+}
+.lunbo_con:hover{
+	border-color: rgba(0,0,0,0.4);
+	background-color: rgba(255,255,255,0.4);
 }
 .banner_nav li{
 	width: 174px;
@@ -159,12 +191,15 @@
 	bottom: 0;
 	margin: auto;
 	position: absolute;
+	opacity: 0;
 }
 .banner_btn1{
 	left: 234px;
+	z-index: 10;
 }
 .banner_btn2{
 	right: 0;
+	z-index: 10;
 }
 .advert{
 	width: 1226px;
@@ -241,15 +276,26 @@
 	line-height: 22px;
 	float: left;
 	cursor: pointer;
-	color:#e0e2e4;
+	font-weight: bold;
+	-webkit-user-select:none;
 }
 .star_btn1{
 	border-right: 1px solid #e0e0e0;
-	color: #b0b0b4;
+	color: #e0e2e4;
+}
+.star_btn2{
+	color:#e0e2e4;
+}
+.disable{
+	color:#b0b0b4;
+}
+.disable:hover{
+	color: #ff6700;
 }
 .star_buttom{
 	width: 1226px;
 	height: 340px;
+	position: relative;
 }
 .star_item{
 	width: 234px;
@@ -259,6 +305,19 @@
 	padding-top: 39px;
 	float: left;
 	margin-right: 14px;
+}
+.star_item_con{
+	width: 978px;
+	height: 340px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left:248px;
+}
+.star_item_right{
+	width: 3000px;
+	height: 340px;
+	transition: all 1s;
 }
 .star_item2{
 	border-top-color: #83c44e;
@@ -270,7 +329,6 @@
 	border-top-color: #e53935;
 }
 .star_item5{
-	margin-right: 0;
 	border-top-color: #00c0a5;
 }
 .star_item img{
@@ -336,6 +394,7 @@
 .zhineng_buttom{
 	width: 1226px;
 	height:614px;
+	position: relative;
 }
 .zhineng_left{
 	width: 234px;
@@ -392,7 +451,6 @@
 .zhineng_itop{
 	width: 234px;
 	height: 143px;
-	margin-bottom: 14px;
 	background-color: #fff;
 	float: right;
 }
@@ -478,6 +536,19 @@
 	border-bottom: 2px solid #ff6700;
 	padding-bottom: 2px;
 }
+.dapei_bottom_left{
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+.dapei_bottom_right{
+	width: 992px;
+	height: 614px;
+	float: left;
+}
+.dapei_top{
+	z-index: 10;
+}
 .dapei_item{
 	width: 234px;
 	height: 300px;
@@ -493,6 +564,17 @@
 }
 .dapei_item1 p{
 	margin-top: 10px;
+}
+.dapei_last{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 14px;
+}
+.dingwei{
+	position: absolute;
+	top:0;
+	left: 234px;
 }
 .tuijian{
 	height: 358px;
@@ -772,6 +854,7 @@
 	opacity: 1;
 }
 .banner_btn:hover{
+	opacity: 1;
 	background-color: rgba(0,0,0,0.6);
 	color: #fff;
 	cursor: pointer;
@@ -783,9 +866,6 @@
 .advert_item:hover p{
 	cursor: pointer;
 	color: #fff;
-}
-.star_btn1:hover{
-	color: #ff6700;
 }
 .zhineng_more h2:hover{
 	color: #ff6700;
